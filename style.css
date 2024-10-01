@@ -31,14 +31,14 @@ section {
 
 .masthead {
     text-align: center;
-    padding: 12px 0;
+    padding: 1rem 0;
     color: #F1F1F1;
     background-color: var(--secondary-color);
-    margin-bottom: 28px;
+    margin-bottom: 2rem;
 }
 
 .masthead h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     font-variant: small-caps;
 }
@@ -47,7 +47,7 @@ section {
     display: flex;
     align-items: center;
     gap: 5%;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .headerContent__topInfo__avatar {
@@ -65,13 +65,13 @@ section {
     flex-grow: 1;
     margin-right: 5%;
     text-align: center;
-    padding: 32px;
+    padding: 2rem;
     border: 2px solid #e2e2e2;
     border-radius: 8px;
 }
 
 .headerContent__topInfo__name h2 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -86,7 +86,7 @@ section {
 
 .headerContent__bottomInfo__item {
     padding: 4px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     letter-spacing: .5px;
     display: flex;
@@ -95,7 +95,7 @@ section {
 }
 
 .headerContent__bottomInfo__item i {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 
@@ -104,12 +104,12 @@ section {
     display: flex;
     align-items: center;
     padding-inline: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 .titleWrapper__titleBox {
-    width: 220px;
-    padding: 8px;
+    min-width: 220px;
+    padding: 0.35rem;
     text-align: center;
     border: 2px solid #525050;
     border-radius: 4px;
@@ -117,7 +117,7 @@ section {
 
 .titleWrapper__titleBox h2 {
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 600;
     letter-spacing: 1.1px;
 }
@@ -135,7 +135,7 @@ section {
 }
 
 .educationWrapper__item {
-    width: 220px;
+    min-width: 220px;
 }
 
 .educationWrapper__item ul {
@@ -151,18 +151,17 @@ section {
 .languageWrapper__item {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 16px;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .languageWrapper__item h3 {
-    width: 70px;
     font-weight: 500;
 }
 
 .languageWrapper__item__bar {
     flex-grow: 1;
-    height: 24px;
+    height: 1.5rem;
     display: flex;
 }
 
@@ -196,7 +195,7 @@ section {
     padding-inline: 8%;
     display: flex;
     justify-content: space-between;
-    gap: 12px;
+    gap: 1rem;
 }
 
 .experienceWrapper__item {
@@ -204,7 +203,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .experienceWrapper__item p {
@@ -214,7 +213,7 @@ section {
 }
 
 .experienceWrapper__item--colored p {
-    padding: 8px 32px;
+    padding: 0.5rem 2rem;
     color: white;
     background-color: var(--secondary-color);
     border-radius: 4px;
@@ -225,12 +224,12 @@ footer {
     text-align: center;
     color: white;
     background-color: var(--secondary-color);
-    padding-block: 16px;
+    padding-block: 1rem;
 }
 
 footer p {
     opacity: 50%;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 footer a {
